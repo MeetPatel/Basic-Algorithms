@@ -10,7 +10,7 @@ void swap(int *a, int *b){
 
 void InsertionSort(int* arr, int n){
 	int i, j, temp;
-	for(i=1; i<n-1; ++i){
+	for(i=1; i<n; ++i){
 		temp = arr[i];
 		j = i-1;
 
